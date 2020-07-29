@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.centered-content {
+    position: relative;
+    top: calc(50vh - 329px);
+    left: calc(50vw - 200px);
+}
+
+.page-block {
+    min-width: 400px;
+    min-height: 400px;
+    width: 400px;
+    height: 400px;
+}
+
+.flex-container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
