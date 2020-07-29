@@ -68,8 +68,8 @@ The main app routing module is where all of the magic happens.
 ![](./images/8.png)
  
 On lines 9 and 10 we can utilize the loadChildren handler to import our modules whenever the user targets the specified path of reporting or admin.  What this allows for is the lazy loading of the module and the assignment of the root path of that specific module to be reporting or admin.
-The end result would by /reporting for the reporting page, and /reporting/details for the report details page!
-When these routes are activated the lazy loading occurs and the module is cached unless the application is reloaded.  This means you can bouce around from page to page without having to worry about having to wait for the content to reload.
+The end result would be /reporting for the reporting page, and /reporting/details for the report details page!
+When these routes are activated the lazy loading occurs and the module is cached unless the application is reloaded.  This means you can bounce around from page to page without having to worry about waiting for the content to reload.
 This can be visualized in the browsers developer tools network tab.
 On initial load of the home page we can see the entire app get downloaded.
 
